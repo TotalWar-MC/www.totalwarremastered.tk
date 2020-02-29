@@ -285,9 +285,11 @@ hr {
 	padding: 12px;
 }
 
-.owner {background-color: rgba(244, 65, 65, .5);}
-.manager {background-color: rgba(66, 134, 244, .5);}
+.owner {background-color: rgba(3, 90, 148, 0.5);}
 .admin {background-color: rgba(59, 211, 42, .5);}
+.developer {background-color: rgba(230, 25, 25, 0.596);}
+.jrdev {background-color: rgb(255, 81, 0);}
+.moderator {background-color: rgba(221, 59, 59, 0.76);}
 
 /* Announcement */
 
