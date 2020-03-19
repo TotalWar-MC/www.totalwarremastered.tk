@@ -151,7 +151,7 @@
 								$form.reset();
 
 							// Enable submit.
-								$submit.disabled = false;
+								$submit.disabled = true;
 
 							// Redirect
 								$redirect
