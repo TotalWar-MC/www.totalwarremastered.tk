@@ -101,7 +101,7 @@
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
-					$redirect = window.location.href = "https://totalwarremastered.tk/whitelist/";
+				//	$redirect = window.location.href = "https://totalwarremastered.tk/whitelist/";
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -151,14 +151,13 @@
 								$form.reset();
 
 							// Enable submit.
-								$submit.disabled = true;
-
-							// Redirect
-								$redirect
+								$submit.disabled = false;
 
 							// Show message.
 								$message._show('success', 'Thank you!');
 								//$message._show('failure', 'Something went wrong. Please try again.');
+								
+							// Redirect
 
 						}, 750);
 
