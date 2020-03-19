@@ -1,9 +1,3 @@
-/*
-	Eventually by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 (function() {
 
 	"use strict";
@@ -107,6 +101,7 @@
 			// Vars.
 				var $form = document.querySelectorAll('#signup-form')[0],
 					$submit = document.querySelectorAll('#signup-form input[type="submit"]')[0],
+					$redirect = window.location.href = "https://totalwarremastered.tk/whitelist/";
 					$message;
 
 			// Bail if addEventListener isn't supported.
@@ -157,6 +152,9 @@
 
 							// Enable submit.
 								$submit.disabled = false;
+
+							// Redirect
+								$redirect
 
 							// Show message.
 								$message._show('success', 'Thank you!');
