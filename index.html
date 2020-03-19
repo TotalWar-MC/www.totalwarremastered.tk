@@ -18,15 +18,16 @@
 			</header>
 
 		<!-- Signup Form -->
-			<form id="signup-form" method="post" action="#">
-				<input type="text" name="Username" id="username" placeholder="Username" />
+			<form id="signup-form" method="post" action="#" onSubmit="return redirect();">
+				<input type="text" name="Username" id="Username" placeholder="Username" />
 				<input type="submit" value="Sign Up" />
 			</form>
 			<script>
 			function redirect(){
-				var username = document.getElementById('username').value;
+				var response = document.getElementById('Username').value;
 				if (response !== null)
-				window.location.href = "https://totalwarremastered.tk/whitelist";
+					location = "https://totalwarremastered.tk/whitelist";
+				return false;
 			}
 			</script>
 
